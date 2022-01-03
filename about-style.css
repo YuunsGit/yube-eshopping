@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
+
+.branch {
+    box-shadow: gray 0 0 5px 0.1px;
+    margin: 25px auto;
+    width: 100%;
+}
+
+
+/* SITE */
+
+
+.yube {
+    margin: 0 auto 10px;
+    font-size: large;
+    max-width: 100%;
+    text-align: justify;
+}
+
+
+/* BUKET AND YUNUS */
+
+
+.buket-wrapper, .yunus-wrapper {
+    width: 50%;
+    margin: 40px auto;
+    border-top: 1.5px solid rgb(226, 226, 226);
+    padding-top: 20px;
+}
+
+.buket-wrapper {
+    float: left;
+    padding-right: 2%;
+    border-right: 1.5px solid rgb(226, 226, 226);
+}
+
+.yunus-wrapper {
+    float: right;
+    padding-left: 2%;
+}
+
+.yunus p, .buket p {
+    font-size: 17px;
+}
+
+.yunus {
+    text-align: right;
+}
+
+.buket {
+    text-align: left;
+}
+
+.yunus img, .buket img {
+    max-width: 200px;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.yunus img {
+    float: right;
+    margin-left: 20px;
+}
+
+.buket img {
+    float: left;
+    margin-right: 20px;
+}
+
+h2 {
+    font-weight: 600;
+}

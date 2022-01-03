@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
+
+
+/* CART */
+
+.empty {
+    font-size: 30px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+table {
+    margin: 50px auto;
+}
+
+.cart-items {
+    width: 100%;
+}
+
+.product-img {
+    max-width: 80px;
+    margin: 20px 60px;
+}
+
+.remove {
+    max-width: 20px;
+    cursor: pointer;
+}
+
+th {
+    text-align: left;
+    font-size: 21px;
+    height: 60px;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.product-th, .quantity-th {
+    text-align: center;
+}
+
+.name {
+    width: 400px;
+}
+
+.quantity {
+    text-align: center;
+    margin: 0 60px;
+    font-size: 18px;
+    border: 1.5px solid rgb(226, 226, 226);
+}
+
+.quantity:focus {
+    outline-style: double;
+}
+
+.price {
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.amount {
+    font-size: 18px;
+}
+
+.total {
+    font-size: 20px;
+}
+
+td {
+    border-top: 1.5px solid rgb(226, 226, 226);
+}
+
+.bottom {
+    border: none;
+}
+
+
+/* BUY BUTTON */
+
+.buy {
+    width: 100%;
+}
+
+.buy button {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 160px;
+    border: none;
+    color: white;
+    background-color: #ff9900;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.buy button:hover {
+    width: 220px;
+    background-color: #ffa620;
+    transition: .3s;
+}
+
+/* POPUP */
+
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.confirm {
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(images/icons/succ.png);
+    background-repeat: no-repeat;
+    background-position-y: 135%;
+    background-position-x: -10%;
+    background-size: 120px;
+}
+
+.received {
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.ok {
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    user-select: none;
+    cursor: pointer;
+    color: #131921;
+    font-size: large;
+    background-color: #ff9900;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.ok:hover {
+    width: 100px;
+    transition: .2s;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
+
+
+/* PRODUCTS */
+
+
+.products-header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    color: white;
+    background-color: rgb(35, 47, 62);
+    font-weight: 700;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.product {
+    position: relative;
+    max-width: 18%;
+    height: auto;
+    border: 1.5px solid rgb(216, 216, 216);
+    margin-right: 2%;
+    margin-bottom: 2%;
+    transition: .2s;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product:hover {
+    box-shadow: 0 0 4px .5px gray;
+    transition: .2s;
+}
+
+.product img {
+    max-width: 90%;
+    display: block;
+    margin: 20px auto;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.name {
+    margin: 15px auto;
+    width: 90%;
+    height: 65px;
+    font-size: 17px;
+    overflow: hidden;
+}
+
+.price {
+    color: #ff9900;
+    font-weight: 700;
+    font-size: 26px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.buy, .added, .no-stock {
+    font-size: 18px;
+    user-select: none;
+    background-color: #ff9900;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .2s;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.buy:hover {
+    width: 75%;
+    transition: .3s;
+}
+
+.added {
+    color: #131921;
+    background-color: white;
+    cursor: default;
+}
+
+.no-stock {
+    color: rgb(255, 49, 49);
+    background-color: white;
+    cursor: default;
+}
+
+/* TOP SCROLL BUTTON */
+
+.top {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #ff9900;
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 45px;
+    user-select: none;
+    cursor: pointer;
+}

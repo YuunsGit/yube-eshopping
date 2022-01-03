@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
+
+
+/* BRANCHES */
+
+
+.branches-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.branches {
+    height: 180px;
+    border-bottom: 1.5px solid rgb(226, 226, 226);
+    text-align: right;
+}
+
+.branches b {
+    font-size: x-large;
+}
+
+.number {
+    font-size: 20px;
+}
+
+.branches img {
+    height: 100%;
+    max-width: 50%;
+    float: left;
+}
+
+.detail {
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}

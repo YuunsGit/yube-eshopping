@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
+
+
+/* LOG IN */
+
+
+.forms {
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.login-section, .register-section {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.login-section {
+    float: left;
+    border-right: 1.5px solid rgb(226, 226, 226);
+}
+
+.register-section {
+    float: right;
+}
+
+.login-form, .register-form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+form h1 {
+    margin-bottom: 50px;
+    border-bottom: 6px solid #ff9900;
+}
+
+input {
+    margin-bottom: 20px;
+    padding-left: 44px;
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    width: 280px;
+    background-color: rgb(226, 226, 226);
+}
+
+.username, .password {
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 12px;
+}
+
+.username {
+    background-image: url(images/icons/login2.png);
+}
+
+.password {
+    background-image: url(images/icons/key.png);
+}
+
+input:focus {
+    outline: none;
+    background-color: rgb(241, 241, 241);
+}
+
+.submit {
+    height: 40px;
+    width: 140px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #ff9900;
+    color: white;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.submit:hover {
+    background-color: #ffa825;
+    width: 180px;
+    transition: .3s;
+}
+
+.err, .succ {
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: center;
+    padding-left: 24px;
+}
+
+.err {
+    color: rgb(255, 59, 59);
+    background-image: url(images/icons/err.png);
+}
+
+.succ {
+    color: rgb(0, 202, 0);
+    background-image: url(images/icons/succ.png);
+}
