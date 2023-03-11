@@ -5,9 +5,9 @@
   yu&be is an online shopping prototype I made using jQuery for Frontend and php for Backend. 
 </p>
 <div align="center">
-  <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872136-40a3be6b-b1a1-47c3-acea-1a04d006b143.png" height="100" />
-  <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872172-5d11ee45-17a1-4d69-8a10-291fba6f6485.svg" height="100" />
-  <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872257-3542600f-76ec-4585-8acb-c12f42e2fce6.png" height="100" />
+  <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872136-40a3be6b-b1a1-47c3-acea-1a04d006b143.png" height="75" />
+  <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872172-5d11ee45-17a1-4d69-8a10-291fba6f6485.svg" height="75" />
+  <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872257-3542600f-76ec-4585-8acb-c12f42e2fce6.png" height="75" />
 </div>
 <br/>
 <div align="center">
