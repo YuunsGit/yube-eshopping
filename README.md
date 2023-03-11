@@ -12,7 +12,7 @@
 <br/>
 <div align="center">
  <h2>Screenshots From The Website</h2>
-  <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872212-8d7a0839-a28b-4acf-b7db-60630b665529.png" />
-  <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872217-e6bf03f6-3a56-476c-93e6-1ae9d0a3a04f.png" />
-  <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872224-75d6a63c-0696-422d-a819-e1b5a71a5e40.png" />
+  <img alt="php" src="https://user-images.githubusercontent.com/42357900/219872212-8d7a0839-a28b-4acf-b7db-60630b665529.png" />
+  <img alt="jQuery" src="https://user-images.githubusercontent.com/42357900/219872217-e6bf03f6-3a56-476c-93e6-1ae9d0a3a04f.png" />
+  <img alt="MySQL" src="https://user-images.githubusercontent.com/42357900/219872224-75d6a63c-0696-422d-a819-e1b5a71a5e40.png" />
 </div>
