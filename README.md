@@ -2,7 +2,7 @@
   yu&be - Online Shopping Prototype
 </h1>
 <p align="center">
-  yu&be is an online shopping prototype I made using jQuery for Frontend and php for Backend. 
+  yu&be is an online shopping prototype made with jQuery for Frontend and php for Backend. 
 </p>
 <div align="center">
   <img alt="Logo" src="https://user-images.githubusercontent.com/42357900/219872136-40a3be6b-b1a1-47c3-acea-1a04d006b143.png" height="75" />
